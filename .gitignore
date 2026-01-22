@@ -1,21 +1,25 @@
-# Android / Gradle
-.gradle/
-build/
-app/build/
-captures/
-.externalNativeBuild/
-.cxx/
-
-# Local Android SDK config (NO pujar)
-local.properties
-
-# IDEs
-.idea/
+<<<<<<< HEAD
+.gradle
+/local.properties
+/.idea
+/build
+/app/build
 *.iml
-
-# Mac/Windows
 .DS_Store
-Thumbs.db
-
-# Logs
-*.log
+=======
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+>>>>>>> ed05082 (Add Android Studio project (WebView + upload + safe settings))
