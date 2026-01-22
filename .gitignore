@@ -1,7 +1,21 @@
-.gradle
-/local.properties
-/.idea
-/build
-/app/build
+# Android / Gradle
+.gradle/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local Android SDK config (NO pujar)
+local.properties
+
+# IDEs
+.idea/
 *.iml
+
+# Mac/Windows
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
